@@ -66,9 +66,9 @@ countries= {
     "country_4": {"name":"Spain", "capital": "Madrid"},
     "country_5": {"name":"Italy","capital": "Rome"}
 }
-# print(countries)
-# for x in countries.items():
-#     print(x)
+print(countries)
+for x in countries.items():
+    print(x)
 
 countries.setdefault("country_6", {"name":"Portugal", "capital":"Lisbon"})
 countries.setdefault("country_7",{"name":"Greece", "capital": "Athens"})
