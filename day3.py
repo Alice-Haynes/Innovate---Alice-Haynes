@@ -83,7 +83,8 @@ for x in countries:
 
 for x in countries.items():
     print(x)
-
+#for x in countries.items():
+#    print(x)
 
 ###! ACTIVITY 3 ###
 
