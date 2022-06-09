@@ -9,15 +9,15 @@ my_cat = {"name":"Salem", "colour": "black", "mood": "sassy"}
 print(my_cat)
 # - Expected: {'name': 'Salem', 'colour': 'black', 'mood': 'sassy'}
 
-print(my_cat["name"])
-# - Expected: 'Salem'
-print(my_cat["colour"])
-# - Expected: 'black'
-print(my_cat["mood"])
-# - Expected: 'sassy'
+# print(my_cat["name"])
+# # - Expected: 'Salem'
+# print(my_cat["colour"])
+# # - Expected: 'black'
+# print(my_cat["mood"])
+# # - Expected: 'sassy'
 
-my_cat["name"] = "Whiskers"
-print(my_cat["name"])
+# my_cat["name"] = "Whiskers"
+# print(my_cat["name"])
 
 
 ###! ACTIVITY 1 ###
@@ -32,22 +32,22 @@ cats = {"name":"Catcat",
         "age": 10
 }
 
-print(cats.values())
+# print(cats.values())
 
-for x in cats.items():
-    print(x)
+# for x in cats.items():
+#     print(x)
 
-cats.pop("age")
-for x in cats.items():
-    print(x)
+# cats.pop("age")
+# for x in cats.items():
+#     print(x)
 
-del cats["name"]
-for x in cats.keys():
-    print(x)
+# del cats["name"]
+# for x in cats.keys():
+#     print(x)
 
-cats["age"] = 11
-for x in cats.items():
-    print(x)
+# cats["age"] = 11
+# for x in cats.items():
+#     print(x)
 
 ###! ACTIVITY 2 ###
 
@@ -78,6 +78,11 @@ for x in countries.items():
     print(x)
 ## I PREFER THE LOOP METHOD AS IT DISPLAYS A LOT BETTER ##
 
+for x in countries:
+    countries[x].pop("capital")
+
+for x in countries.items():
+    print(x)
 
 
 ###! ACTIVITY 3 ###
@@ -95,5 +100,5 @@ fave_songs= {
     "song5": {"artist":"Right Said Fred", "song_name":"Deeply Dippy", "genre":"Pop", "release_year":"1992"}
 }
 
-for x in fave_songs.items():
-    print(x)
+#for x in fave_songs.items():
+#   print(x)
