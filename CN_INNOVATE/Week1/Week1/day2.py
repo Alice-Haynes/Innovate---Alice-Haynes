@@ -57,7 +57,7 @@
 
 # #! SLICE NOTATION
 
-# # - my_list[start:stop] - Specify the start andstop index
+# # - my_list[start:stop] - Specify the start and stop index
 # # - my_list[start:] - Specify the start index,slice until the end of list
 # # - my_list[:stop] - Slice from the start of list, specify the stop index
 # # - my_list[:] - Copy the list

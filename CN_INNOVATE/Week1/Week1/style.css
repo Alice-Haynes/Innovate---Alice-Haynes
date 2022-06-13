@@ -1,0 +1,25 @@
+*{background-color:teal;
+}
+
+body{
+    background-color: teal;
+}
+
+p{
+    color: orangered;
+    font-size: 32px;
+    background-color: darkslategray;
+}
+
+h1,h2,h3{
+    color: orange;
+    text-decoration: underline;
+}
+
+h1{
+    text-align: center;
+    height: vh10;
+}
+div{
+    font-style: italic;
+}

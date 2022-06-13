@@ -1,6 +1,5 @@
-### PART 1 ###
 
-##! BASICS
+##! BASICS ##
 
 greeting = "hello world"
 print(greeting)
@@ -20,7 +19,7 @@ print(greeting.capitalize())
 # print(greeting.replace())
 # print(greeting.strip())
 
-##! LIBRARIES
+##! LIBRARIES ##
 
 import random
 print(random.random())
@@ -32,7 +31,7 @@ print(random())
 print(uniform(1, 10))
 print(randint(1,10))
 
-##! VARIABLES
+##! VARIABLES ##
 
 greeting = "hello"
 print(greeting, "it's nice to meet you!")
@@ -46,12 +45,12 @@ print("{} there, nice to meet you!" .format(greeting))
 greeting = "hello"
 print(f"{greeting} there, nice to meet you!")
 
-##! INPUT
+##! INPUT ##
 
 response = input("How would you like to respond? \n")
 print(f"How did the user respond?: \n'{response}'")
 
-##! IF ELSE
+##! IF ELSE ##
 
 music = "classical"
 if music == "classical":
@@ -85,7 +84,7 @@ if day == "Saturday" or day == "Sunday":
 else:
     print("When's the weekend?")
 
-##! FUNCTIONS
+##! FUNCTIONS ##
 
 def cash_withdrawal(amount, accnum):
     print(f"Withdrawing {amount} from account {accnum}")
@@ -112,6 +111,7 @@ cash_withdrawal(30, 50449921)
 
 
 ##! ACTIVITY 1
+
 # Create variable that holds the text “Welcome to Code Nation”.
 # Find the length of the string and save this to a new variable.
 # Create a function that checks if the string length is even;
@@ -138,6 +138,13 @@ else:
 # Now using input, allow the user to type a number and print the letter it represents in the alphabet.
 # Remember how index works - and think about how to structure your code.
 
+alphabet = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z" ]
+
+for x in (alphabet):
+    print(x)
+
+
+
 ##! ACTIVITY 3
 # Remember the noughts and crosses activity? Let’s revisit that and start to improve with our improved knowledge.
 # Create a structure of functions that allow the player to play against the computer - here is a suggestion:
@@ -148,7 +155,31 @@ else:
 # Function to check the logic of if there’s a win, lose or draw after every turn is taken.
 
 
-### PART 2 ###
+box_1 = "x"
+box_2 = "o"
+box_3 = " "
+box_4 = "x"
+box_5 = "x"
+box_6 = " "
+box_7 = "o"
+box_8 = " "
+box_9 = " "
+
+print("   |   |   ")
+print(f" {box_1} | {box_2} | {box_3} ")
+print("   |   |   ")
+print("-----------")
+print("   |   |   ")
+print(f" {box_4} | {box_5} | {box_6} ")
+print("   |   |   ")
+print("-----------")
+print("   |   |   ")
+print(f" {box_7} | {box_8} | {box_9} ")
+print("   |   |   ")
+
+
+
+###! PART 2 ###
 
 ##! CONVERTING DATA TYPES
 
